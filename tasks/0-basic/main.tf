@@ -12,14 +12,14 @@ terraform {
 }
 
 provider "aws" {
-  region = "..."
+  region = "us-east-1"
 }
 
 ############
 # Variables
 ############
 variable "name" {
-  description = "Name of EC2 instance"
+  description = " EC2 instance"
 }
 
 variable "instance_type" {
